@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  background: black;
+}
+
+.app {
+  position:absolute;
+  display:flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 0.5px solid grey;
+  padding: 2rem;
+  border-radius: 15px;
+  background:ghostwhite;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: darkgoldenrod;
+  margin-bottom: 2rem;;
+}
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+.buttons {
+  display:flex;
+  gap: 1rem;
+}
+
+button {
+  padding: 1rem;
+  margin: 0.5rem 0 0 0;
+  border: none;
+  border-radius: 15px;
+  color: white;
+}
+
+.dep {
+  background: green;
+}
+.with {
+  background: red;
+}
+.bank {
+  background: black;
+}
